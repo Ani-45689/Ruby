@@ -5,7 +5,7 @@ for i in 1..10
     num = gets.chomp.to_i
     a=a.push(num)
 end
-puts "#{arr}"
+puts "#{a}"
 b=a.reverse()
 if b==a
   puts "same"
